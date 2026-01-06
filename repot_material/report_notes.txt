@@ -1,0 +1,25 @@
+gpt chat: https://chatgpt.com/share/695696f6-1990-8000-bd48-defd2670fd93
+gemini: https://gemini.google.com/share/7fbf1b78f6c2
+
+for classifier 0:
+Farthest positive point:
+{'dist_to_hyperplane': 8.60792497662726,
+ 'idx': 1136,
+ 'norm_cat': 2.9464372213063177,
+ 'norm_img': 83.24482288422766,
+ 'norm_num': 7.909137762513112,
+ 'norm_text': 10.201599684446398,
+ 'total_norm': 84.29121618290746,
+ 'true_class': 0}
+
+Farthest negative point:
+{'dist_to_hyperplane': -6.262043741700257,
+ 'idx': 1163,
+ 'norm_cat': 2.230878323817089,
+ 'norm_img': 20.164407113102623,
+ 'norm_num': 5.826109236451302,
+ 'norm_text': 9.141167843591477,
+ 'total_norm': 23.001839724213248,
+ 'true_class': 3}
+
+ when distance is big, the model is pretty confident, total norm is 84 and img norm is 83, which implies image creates a strong signal
